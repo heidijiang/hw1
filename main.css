@@ -1,0 +1,175 @@
+/*general stuff*/
+body {
+    overflow: scroll;
+    padding: 0;
+    color: #443235;
+    background-color:#efefef;
+    font-family: futura, Arial, sans-serif;
+    cursor: url(cursor1.gif) 17 17, move;
+}
+
+a{
+    color: #dde0ec;
+    text-decoration: none;
+    cursor: url(cursor2.gif) 17 17, move;
+}
+
+a:hover {
+    color: #bd4a70;
+    transition: .25;
+    text-decoration: none;
+}
+
+h1 {
+    font-size:200%;
+    color: #ddbec6;
+    text-align:center;
+    font-weight: bold;
+}
+h2 {
+    font-size: 180%;
+    color: #404555;
+    text-align:center;
+    font-weight: bold;
+}
+h3 {
+    font-size: 130%;
+    color: #ffffff;
+    text-align:center;
+    margin-top:-1vh;
+    font-weight: bold;
+}
+
+#bullets {
+    color: #000000;
+}
+
+/*header and footer stuff*/
+.nav li{
+    display: inline-block;
+    font-weight: bold;
+}
+.nav ul{
+    border:0;
+}
+
+.header {
+    width:100%;
+    padding-left:5vw;
+    padding-right: 10vw;
+    position:fixed;
+    background-color:#9fa1ae;
+    border-bottom: 1vh double #443235;
+}
+
+.footer {
+    position:fixed;
+    width:100%;
+    height:8vh
+    line-height:6vh;
+    bottom:0;
+    background-color:#9fa1ae;
+    border-top: .5vh solid #443235;
+    text-align: center;
+    font-size: 80%;
+}
+
+/*related to index and bio pages*/
+.first {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#master_img {
+     width:25%;
+     display:block;
+     margin-top: 15vh;
+     margin-left: auto;
+     margin-right: auto;
+
+}
+
+.img1 {
+     display:block;
+     margin-top:5vh;
+     margin-left: auto;
+     margin-right: auto;
+}
+.img2 {
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.small_img {
+    display:flex;
+    justify-content:center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+
+.second {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #9d827b;
+    justify-content:center;
+    text-align: justify;
+    margin-top:5vh;
+    overflow:scroll;
+}
+
+.third {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #d4c6ca;
+    justify-content:center;
+    text-align: justify;
+    overflow:scroll;
+}
+
+
+/*related to the images page*/
+.Container2 {
+    display: flex;
+    height: 60vh;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.Left {
+    height: 60vh;
+}
+
+.Right_pics {
+    overflow: scroll;
+    width: 35vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    padding-bottom: 1vh;
+    margin-left:0px;
+    text-align: justify;
+    line-height: 120%;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.thumbnail {
+    width:8vw;
+    overflow:scroll;
+}
+
+
