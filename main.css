@@ -39,6 +39,13 @@ h3 {
     margin-top:-1vh;
     font-weight: bold;
 }
+h4 {
+    font-size: 110%;
+    color: #000000;
+    text-align:center;
+    margin-top:-1vh;
+    font-weight: bold;
+}
 
 #bullets {
     color: #000000;
@@ -137,6 +144,19 @@ h3 {
     padding-top: 5%;
     padding-bottom: 5%;
     background-color: #d4c6ca;
+    justify-content:center;
+    text-align: justify;
+    overflow:scroll;
+}
+.fourth {
+    display:block;
+    height: 100%;
+    width: 100%;
+    padding-left:25%;
+    padding-right:25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #efefef;
     justify-content:center;
     text-align: justify;
     overflow:scroll;
