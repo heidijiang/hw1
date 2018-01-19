@@ -6,7 +6,7 @@ body {
     background-color:#efefef;
     font-family: futura, Arial, sans-serif;
     cursor: url(cursor1.gif) 17 17, move;
-    font-size: 1.5vw;
+    font-size: 1.6vw;
 }
 
 a{
@@ -94,41 +94,6 @@ h4 {
     text-align: center;
 }
 
-#master_img {
-     width:25%;
-     display:block;
-     margin-top: 10vh;
-     margin-left: auto;
-     margin-right: auto;
-}
-
-#cutout_img {
-     width:50%;
-     display:block;
-     margin-top: 5vh;
-     margin-left: auto;
-     margin-right: auto;
-}
-
-.img1 {
-     display:block;
-     margin-top:5vh;
-     margin-left: auto;
-     margin-right: auto;
-}
-.img2 {
-     display:block;
-     margin-left: auto;
-     margin-right: auto;
-}
-
-.small_img {
-    display:flex;
-    justify-content:center;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-}
-
 .second {
     display:block;
     height: 100%;
@@ -171,7 +136,6 @@ h4 {
     overflow:scroll;
 }
 
-
 /*related to the images page*/
 .Container2 {
     display: flex;
@@ -207,4 +171,44 @@ h4 {
     box-shadow: none;
 }
 
+/*misc image attributes*/
+
+#master_img {
+     width:25%;
+     display:block;
+     margin-top: 10vh;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+#cutout_img {
+     width:50%;
+     display:block;
+     margin-top: 5vh;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.img1 {
+     display:block;
+     margin-top:5vh;
+     margin-left: auto;
+     margin-right: auto;
+}
+.img2 {
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+.small_img {
+    display:flex;
+    justify-content:center;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.small_img2 {
+    display:flex;
+    justify-content:center;
+}
 
