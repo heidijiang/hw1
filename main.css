@@ -6,6 +6,7 @@ body {
     background-color:#efefef;
     font-family: futura, Arial, sans-serif;
     cursor: url(cursor1.gif) 17 17, move;
+    font-size: 1.5vw;
 }
 
 a{
@@ -21,27 +22,28 @@ a:hover {
 }
 
 h1 {
-    font-size:200%;
+    font-size:3vw;
     color: #ddbec6;
     text-align:center;
     font-weight: bold;
 }
 h2 {
-    font-size: 180%;
+    font-size: 2.5vw;
     color: #404555;
     text-align:center;
     font-weight: bold;
 }
 h3 {
-    font-size: 130%;
+    font-size: 2vw;
     color: #ffffff;
     text-align:center;
     margin-top:-1vh;
     font-weight: bold;
 }
 h4 {
-    font-size: 110%;
+    font-size: 1.5vw;
     color: #000000;
+    margin-bottom: -4vh;
     text-align:center;
     margin-top:-1vh;
     font-weight: bold;
@@ -81,7 +83,7 @@ h4 {
     background-color:#9fa1ae;
     border-top: .5vh solid #443235;
     text-align: center;
-    font-size: 80%;
+    font-size: 1.5vw;
 }
 
 /*related to index and bio pages*/
