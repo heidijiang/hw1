@@ -98,7 +98,14 @@ h4 {
      margin-top: 10vh;
      margin-left: auto;
      margin-right: auto;
+}
 
+#cutout_img {
+     width:50%;
+     display:block;
+     margin-top: 5vh;
+     margin-left: auto;
+     margin-right: auto;
 }
 
 .img1 {
