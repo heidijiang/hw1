@@ -6,32 +6,33 @@ body {
     background-color:#efefef;
     font-family: futura, Arial, sans-serif;
     cursor: url(cursor1.gif) 17 17, move;
-    font-size: 1.6vw;
-}
+    font-size: 2vh;
+    line-height: 3vh;
+}   
 
 a{
-    color: #dde0ec;
+    color: #535565;
     text-decoration: none;
     cursor: url(cursor2.gif) 17 17, move;
 }
 
 a:hover {
-    color: #bd4a70;
+    color: #d4451a;
     text-decoration: none;
     transition:1s;
 }
 
 h1 {
-    font-size:3vw;
+    font-size:4vh;
     color: #ddbec6;
     text-align:center;
     font-weight: bold;
 }
 h2 {
-    font-size: 2.5vw;
+    font-size: 3.5vh;
     color: #404555;
     text-align:center;
-    font-weight: bold;
+    font-weight: bold
 }
 h3 {
     font-size: 2vw;
@@ -41,7 +42,7 @@ h3 {
     font-weight: bold;
 }
 h4 {
-    font-size: 1.5vw;
+    font-size: 2.5vh;
     color: #000000;
     margin-bottom: -4vh;
     text-align:center;
@@ -58,8 +59,8 @@ h4 {
     display: inline-block;
     font-weight: bold;
 }
-.nav ul{
-    border:0;
+.nav ul a:hover{
+    background-color: #232a3c;
 }
 
 .header {
@@ -68,9 +69,9 @@ h4 {
     padding-right: 5vw;
     padding-top: .5vh;
     /*position:fixed;*/
-    background-color:#9fa1ae;
+    background-color:#232a3c;
     /*border:1px solid #9fa1ae;*/
-    border-bottom: 1vh double #443235;
+    border-bottom: 1vh double #FFFFFF;
 }
 
 .footer {
@@ -83,7 +84,7 @@ h4 {
     background-color:#9fa1ae;
     border-top: .5vh solid #443235;
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 1.5vh;
 }
 
 /*related to index and bio pages*/
