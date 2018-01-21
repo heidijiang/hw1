@@ -6,8 +6,8 @@ body {
     background-color:#efefef;
     font-family: futura, Arial, sans-serif;
     cursor: url(cursor1.gif) 17 17, move;
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 14px;
+    line-height: 20px;
 }   
 
 a{
@@ -23,30 +23,30 @@ a:hover {
 }
 
 h1 {
-    font-size:4vh;
+    font-size:24px;
     color: #ddbec6;
     text-align:center;
     font-weight: bold;
 }
 h2 {
-    font-size: 3.5vh;
+    font-size: 20px;
     color: #404555;
     text-align:center;
     font-weight: bold
 }
 h3 {
-    font-size: 2vw;
+    font-size: 1.5vw;
     color: #ffffff;
     text-align:center;
     margin-top:-1vh;
     font-weight: bold;
 }
 h4 {
-    font-size: 2.5vh;
+    font-size: 1.5vw;
     color: #000000;
     margin-bottom: -4vh;
     text-align:center;
-    margin-top:-1vh;
+    /*margin-top:-1vh;*/
     font-weight: bold;
 }
 
