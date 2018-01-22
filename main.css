@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1 {
-    font-size:24px;
+    font-size:28px;
     color: #ddbec6;
     text-align:center;
     font-weight: bold;
@@ -107,7 +107,6 @@ h4 {
     justify-content:center;
     text-align: justify;
     margin-top:5vh;
-    overflow:scroll;
 }
 
 .third {
@@ -121,7 +120,6 @@ h4 {
     background-color: #d4c6ca;
     justify-content:center;
     text-align: justify;
-    overflow:scroll;
 }
 .fourth {
     display:block;
@@ -134,7 +132,6 @@ h4 {
     background-color: #efefef;
     justify-content:center;
     text-align: justify;
-    overflow:scroll;
 }
 
 /*related to the images page*/
@@ -175,7 +172,7 @@ h4 {
 /*misc image attributes*/
 
 #master_img {
-     width:25%;
+     width:200px;
      display:block;
      margin-top: 10vh;
      margin-left: auto;
